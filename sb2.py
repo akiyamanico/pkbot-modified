@@ -1910,7 +1910,7 @@ def bot(op):
                                dollypk.sendMessage(msg.to, "Say Hi To Him! Original By : ")
                                dollypk.sendContact(to, "uee07fe83c6409783de6f896cfd573b33")
                                dollypk.sendMessage(msg,to, "Edited By : ")
-                               dollypk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562)
+                               dollypk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562")
 
                         elif cmd == ".about" or cmd == "about":
                           if wait["selfbot"] == True:
