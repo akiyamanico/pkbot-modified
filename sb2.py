@@ -24,7 +24,7 @@ try:
         authToken = savedAuthToken if savedAuthToken and not args.token else args.token
         idOrToken = authToken if authToken else print("# No one Qr was readed, Lets Scan New QR.")
         try:
-            dollypk = LINE('yendra.abadi07@gmail.com','yendra63')
+            dollypk = LINE('')
             tokenFile.close()
             tokenFile = tokenPath.open('w+')
             tokenFile.write(dollypk.authToken)
@@ -46,7 +46,7 @@ try:
             authToken = savedAuthToken if savedAuthToken and not args.token else args.token
             idOrToken = authToken if authToken else print("# No one Qr was readed, Lets Scan New QR.")
             try:
-                dollypk = LINE('yendra.abadi07@gmail.com','yendra63')
+                dollypk = LINE('')
                 tokenFile.close()
                 tokenFile = tokenPath.open('w+')
                 tokenFile.write(dollypk.authToken)
@@ -74,10 +74,10 @@ else:
     
 oepoll = OEPoll(dollypk)
 call = dollypk
-creator = ["u4504221d409f5f2d7e52f121a0b1e088"]
-owner = ["u4504221d409f5f2d7e52f121a0b1e088"]
-admin = ["u4504221d409f5f2d7e52f121a0b1e088","u4504221d409f5f2d7e52f121a0b1e088","u4504221d409f5f2d7e52f121a0b1e088"]
-staff = ["u4504221d409f5f2d7e52f121a0b1e088"]
+creator = ["uba9a8e3ffb48ee5187b1ac4835339562"]
+owner = ["uba9a8e3ffb48ee5187b1ac4835339562"]
+admin = ["uba9a8e3ffb48ee5187b1ac4835339562","uba9a8e3ffb48ee5187b1ac4835339562","uba9a8e3ffb48ee5187b1ac4835339562"]
+staff = ["uba9a8e3ffb48ee5187b1ac4835339562"]
 mid = dollypk.getProfile().mid
 myMid = dollypk.getProfile().mid
 Bots = [mid]
@@ -1910,7 +1910,7 @@ def bot(op):
                                dollypk.sendMessage(msg.to, "Say Hi To Him! Original By : ")
                                dollypk.sendContact(to, "uee07fe83c6409783de6f896cfd573b33")
                                dollypk.sendMessage(msg,to, "Edited By : ")
-                               dollypk.sendContact(to, "u60fbe60a555855a45f374250017c271e")
+                               dollypk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562)
 
                         elif cmd == ".about" or cmd == "about":
                           if wait["selfbot"] == True:
@@ -1974,11 +1974,10 @@ def bot(op):
                                dollypk.sendMessage(msg.to, "🉐 Dragon Area 🉐")
                                dollypk.sendMessage(msg.to, "Kami yg nakal lu yg sewot")
                                dollypk.sendMessage(msg.to, "Ga Terima? Chat kontak di bawah")
-                               dollypk.sendContact(to, "u60fbe60a555855a45f374250017c271e")
+                               dollypk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562")
                                dollypk.sendContact(to, "u4504221d409f5f2d7e52f121a0b1e088")
                                dollypk.sendContact(to, "u164e683895e10c32b118d6a84a994c90")
                                dollypk.sendContact(to, "u3ef6acfd3949c7e7b16c8b3847c3f5b8")
-                               dollypk.sendContact(to, "uf48517d1358ee7a8133025c6e3146a21")
                                dollypk.sendMessage(msg.to, "Papipapicoyy")
                                dollypk.sendMessage(msg.to, "Galrat? Gapapa yg penting udah keinjek")
                                dollypk.sendMessage(msg.to, "Jangan Lupa Add OA Kami")
@@ -2011,11 +2010,10 @@ def bot(op):
                                dollypk.sendMessage(msg.to, "Para BBG harap merapat")
                                dollypk.sendMessage(msg.to, "Para DDK harap minggat")
                                dollypk.sendMessage(msg.to, "Dapat salam dari kami berempat")
-                               dollypk.sendContact(to, "u60fbe60a555855a45f374250017c271e")
+                               dollypk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562")
                                dollypk.sendContact(to, "u4504221d409f5f2d7e52f121a0b1e088")
                                dollypk.sendContact(to, "u164e683895e10c32b118d6a84a994c90")
                                dollypk.sendContact(to, "u3ef6acfd3949c7e7b16c8b3847c3f5b8")
-                               dollypk.sendContact(to, "uf48517d1358ee7a8133025c6e3146a21")
                                dollypk.sendMessage(msg.to, "WE ARE : ")
                                dollypk.sendMessage(msg.to, "Circle :  ㅭ[̲̅W][̲̅T][̲̅F]ˣꕃꕃꕃַ_")
                                dollypk.sendContact(to, "uc2a047040c36e9e139508e339c46e302")
